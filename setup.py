@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='epa122a_tools',
-    version='0.2',
+    version='0.1',
     packages=find_packages(),
     install_requires=[
         'requests',
