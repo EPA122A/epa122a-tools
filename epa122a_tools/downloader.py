@@ -47,7 +47,7 @@ def fetch(data_name: str, force: bool = False):
     current_dir.mkdir(parents=True, exist_ok=True)
 
     # Create a temporary directory to download the zip file
-    with TemporaryDirectory(delete=True) as tmpdirname:
+    with TemporaryDirectory() as tmpdirname:
         zip_path = os.path.join(tmpdirname, f"{data_name}.zip")
 
         # Download the zip file
