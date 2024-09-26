@@ -1,1 +1,1 @@
-from .download import fetch
+from .downloader import fetch
