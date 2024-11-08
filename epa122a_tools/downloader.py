@@ -32,9 +32,10 @@ def fetch(data_name: str, force: bool = False):
     # Set the target folder where data will be extracted
     current_dir = Path.cwd()
     data_dir = current_dir / "data"
+    fig_dir = current_dir / "fig"
 
     # Check if the data folder already exists
-    if data_dir.exists() and data_dir.is_dir():
+    if (data_dir.exists() and data_dir.is_dir()) or (fig_dir.exists() and fig_dir.is_dir()):
         if not force:
             print(f"The folder '{data_dir}' already exists. Use force=True to redownload and extract.")
             return
