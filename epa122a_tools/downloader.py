@@ -7,6 +7,7 @@ from tempfile import TemporaryDirectory
 import importlib.metadata
 
 name2link = {
+    'lab-00': 'https://surfdrive.surf.nl/files/index.php/s/YiKmYp8ekFhLlIH',
     'lab-01': 'https://surfdrive.surf.nl/files/index.php/s/qwy7IacNP6nHtgt',
     'lab-02': 'https://surfdrive.surf.nl/files/index.php/s/1hEN47ncLbR0B3W',
     'lab-03': 'https://surfdrive.surf.nl/files/index.php/s/XynFJCP7u1ksuUe',
